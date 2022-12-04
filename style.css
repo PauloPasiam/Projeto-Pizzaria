@@ -1,0 +1,323 @@
+:root{
+    --main-color: #c40215;
+    --primary-text-color: #fff;
+    --secondary-text-color: #191919;
+    --secondary-color:#FFC480;
+    --tertiary-color: #008d44;
+}
+
+*{
+    font-family: Lato;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* Cabeçalho e Banner*/
+
+#header{
+    min-height: 95vh;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)),url("img/banner-bg1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: var(--primary-text-color);
+    position: relative;
+    padding: 8px;
+    
+}
+
+#inner-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#c40215a1; /*navbar*/
+    opacity: 0.8;
+    padding: 5px;
+    
+}
+
+#navbar{
+    display: flex;
+    gap: 2rem;
+    text-transform: uppercase;
+    margin-right: 2rem;
+    
+}
+
+#navbar a{
+    color: var(--primary-text-color);
+    font-weight: bold;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 0px;
+
+}
+.banner h1{
+    font-family: 'Italianno', cursive;
+    font-size: 62px;
+    color: var(--primary-text-color)
+    
+}
+.banner img{
+    width: 200px;
+    color: white;
+}
+
+/* Área de Bem-vindos */
+.bemvindos{
+    background-image: url("img/fundo-bemvindos.png");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 30px 80px;
+    text-align: center;
+    
+    
+}
+.h2-bemvindos{
+    padding: 20px;
+    font-family: Italianno;
+    font-size: 40px;
+}
+.pizza-img{
+    width: 420px;
+}
+
+/* Área do Cardápio */
+.cardapio-titulo{
+    background-color: #FFF8F0;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cardapio{
+    background-color: #FFF8F0;
+    display: flex ;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.h2-cardapio{
+    font-family: Italianno;
+    font-size: 40px;
+    }
+.cardapio-conteudo{
+    padding: 15px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.cardapio-conteudo h3{
+    font-family: Italianno;
+    font-size: 30px;
+    color: #FF8800;
+}
+.area-cardapio-botao{
+    background-color: #FFF8F0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+.cardapio-botao{
+    background-color: #FF8800;
+    width: 250px;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 5px 4x rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size:medium;
+    color: white;
+}
+.cardapio-botao:hover{
+    background-color:#b35f00;
+}
+
+
+/* Área do Happyhour */
+.happyhour{
+    min-height: 70vh;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.6)),url("img/banner-bg3.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    color: var(--primary-text-color);
+    padding: 8px;
+}
+.happyhour-conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.happyhour h2{
+    color: var(--primary-text-color);
+    font-family: 'Italianno', cursive;
+    font-size: 60px;
+}
+.happyhour h3{
+    color: var(--secondary-color)
+}
+
+/* Depoimentos */
+.depoimentos{
+    background-image: url("img/fundo-depoimentos.png");
+    background-repeat: no-repeat;
+    padding-bottom: 30px; 
+    align-items: center;
+   
+}
+
+.depoimentos h2{
+    text-align: center;
+    padding: 30px;
+    font-family: Italianno;
+    font-size: 40px;  
+    
+}
+.depoimentos-conteudo{
+    
+    display: flex ;
+    justify-content: space-around;
+    padding: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+.depoimento{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20%;
+  
+}
+.depoimento p{
+    margin-bottom: 10px;
+}
+.depoimento .depoimento-img{
+    width: 152px;
+    height: 152px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+#depoimento-1{
+    background-image: url("img/depoimento1.jpg");
+}
+#depoimento-2{
+    background-image: url("img/depoimento2.jpg");
+}
+#depoimento-3{
+    background-image: url("img/depoimento3.jpg");
+}
+
+/* Contato */
+.contatos{
+    background: linear-gradient(68.15deg,#7B020E 16.62%,#AC0213 85.61%);
+    color: white;
+    display: flex;    
+    justify-content: space-between;
+    padding: 80px;
+    align-items: center;
+    text-align: center;
+}
+.contato-contatos{
+    text-align: center;
+}
+
+.contato-menu{
+    color: white;
+}
+.contato-menu a{
+ color: white;
+}
+
+/* Rodapé */
+.rodape{
+    background: linear-gradient(68.15deg,#7B020E 16.62%,#AC0213 85.61%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: smaller;
+    color: white;
+}
+
+
+/* Mobile */
+@media (max-width: 600px){
+    #inner-header{
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .bemvindos{
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        padding: 30px;
+        
+    }
+    .benvindos-texto{
+        padding-bottom: 30px;
+    }
+    .pizza-img{
+        display: none;
+    }
+    
+    .depoimentos-conteudo{
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        padding: 10px;
+    }
+    .depoimentos{
+        background-image: none;
+    }
+    .depoimento{
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contatos{
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap:40px;
+        
+    }
+    .contato-maps{
+        display: none;
+    }
+    
+    .rodape{
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+      
+        
+    }
+}
