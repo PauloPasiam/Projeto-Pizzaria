@@ -47,7 +47,6 @@ a{
     justify-content: space-around;
     align-items: center;
     background-color:#c40215a1; /*navbar*/
-    opacity: 0.8;
     padding: 5px;
     
 }
@@ -78,12 +77,12 @@ a{
 .banner h1{
     font-family: 'Italianno', cursive;
     font-size: 62px;
-    color: var(--primary-text-color);
-    text-shadow: black 0.1em 0.1em 0.2em;
+    color: #e6d92e;
+    text-shadow: 0.1em 0.1em 0.3em rgb(19, 19, 19);
     
 }
 .banner img{
-    width: 200px;
+    width: 130px;
     color: white;
 }
 
@@ -122,6 +121,9 @@ a{
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
+}
+#ornamento-cardapio{
+    width: 80px;
 }
 .h2-cardapio{
     font-family: Italianno;
@@ -343,11 +345,17 @@ hr {
 
 /* Mobile */
 @media (max-width: 600px){
+       
     #inner-header{
         justify-content: flex-start;
         align-items: center;
     }
-    
+    .banner h1{
+        font-size: 42px;
+    }
+    #ornamento-banner{
+        width: 130px;
+    }
     .bemvindos{
         flex-direction: column;
         align-items: center;
