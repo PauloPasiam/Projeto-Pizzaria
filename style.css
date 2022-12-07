@@ -22,7 +22,7 @@ a{
 
 #header{
     min-height: 95vh;
-    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)),url("img/banner-bg1.jpg");
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.4)),url("img/banner-bg1.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -33,7 +33,7 @@ a{
 }
 #header_menu{
     min-height: 95vh;
-    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)),url("img/banner-cardapio.jpg");
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.4)),url("img/banner-cardapio.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
